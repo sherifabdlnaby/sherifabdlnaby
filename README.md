@@ -1,6 +1,6 @@
 
-
-<img height="32" width="32" src="https://user-images.githubusercontent.com/16992394/92544219-b0277180-f24d-11ea-95c8-78321e708aeb.png">  <b color="gray">Recent Blog Posts</b><img/>
+<b color="gray">Recent Blog Posts</b>
+<img height="32" width="32" src="https://user-images.githubusercontent.com/16992394/92544219-b0277180-f24d-11ea-95c8-78321e708aeb.png">  <img/>
 
 <!-- BLOG-POST-LIST:START -->
 - [Designing Go Configuration Frameworks for a Cloud Native App](https://medium.com/better-programming/designing-cloud-native-configuration-framework-eefb0b3793cb?source=rss-43e8644100ea------2)
@@ -8,7 +8,6 @@
 <!-- BLOG-POST-LIST:END -->  
 
 ##### Find Me
-
 <div align="left">
 <a href="https://github.com/sherifabdlnaby" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
@@ -28,9 +27,8 @@
 </div>  
 
 <tr><td valign="top" width="10%"></td><td valign="top" width="80%">
-  
+ 
 ##### Technologies of Interest
-
 <div align="center">
     <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="62" />
     <img src="https://user-images.githubusercontent.com/16992394/92542332-c41ca480-f248-11ea-879d-5418ebe986cf.png" alt="docker" width="50" />
