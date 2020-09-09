@@ -21,7 +21,9 @@
 </div></td><td valign="top" width="10%"></td></tr>
 
 #### Recent Blog Posts  
+
 <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" />
+
 <!-- BLOG-POST-LIST:START -->
 - [Designing Go Configuration Frameworks for a Cloud Native App](https://medium.com/better-programming/designing-cloud-native-configuration-framework-eefb0b3793cb?source=rss-43e8644100ea------2)
 - [Run, Secure, and Deploy Elastic Stack on Docker](https://towardsdatascience.com/running-securing-and-deploying-elastic-stack-on-docker-f1a8ebf1dc5b?source=rss-43e8644100ea------2)
