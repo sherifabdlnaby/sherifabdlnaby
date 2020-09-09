@@ -1,12 +1,19 @@
 
 
 #### Technologies of Interest
+### Stuff I like  
 <div align="center">  
-<img style="margin: 15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/go.svg" alt="Go" height="50" />  
-<img style="margin: 15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/docker.svg" alt="Docker" height="50" />  
-<img style="margin: 15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kubernetes.svg" alt="Kubernetes" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/go-original.svg" alt="Go" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/elasticsearch.png" alt="Elastic Search" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/rabbitmq-icon.svg" alt="RabbitMQ" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/symfony_black_03.svg" alt="Symfony" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/apache_hadoop-icon.svg" alt="Hadoop" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/apache_kafka-icon.svg" alt="Kafka" height="50" />  
 </div></td><td valign="top" width="33%"></td></tr></table>   
-
 
 #### Recent Blog Posts  
 <!-- BLOG-POST-LIST:START -->  
