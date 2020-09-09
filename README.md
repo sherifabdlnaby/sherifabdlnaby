@@ -1,6 +1,6 @@
 
-<b color="gray">Recent Blog Posts</b>
-<img height="32" width="32" src="https://user-images.githubusercontent.com/16992394/92544219-b0277180-f24d-11ea-95c8-78321e708aeb.png">  <img/>
+<b>Recent Blog Posts
+<img height="32" width="32" src="https://user-images.githubusercontent.com/16992394/92544219-b0277180-f24d-11ea-95c8-78321e708aeb.png">  <img/></b>
 
 <!-- BLOG-POST-LIST:START -->
 - [Designing Go Configuration Frameworks for a Cloud Native App](https://medium.com/better-programming/designing-cloud-native-configuration-framework-eefb0b3793cb?source=rss-43e8644100ea------2)
