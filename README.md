@@ -1,25 +1,24 @@
-<table><tr><td valign="top" width="10%"></td><td valign="top" width="80%">
+<table style="border: none"><tr><td valign="top" width="10%"></td><td valign="top" width="80%">
+  
+#### Technologies of Interest
 
-### Technologies of Interest  
-<div align="center">  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/django-original.svg" alt="Django" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" />  
-<img style="margin: 50px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" />  
-</div></td><td valign="top" width="10%"></td></tr></table>  
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542332-c41ca480-f248-11ea-879d-5418ebe986cf.png" alt="docker" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542317-bf57f080-f248-11ea-9ba0-810c46772644.png" alt="k8s" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542318-bff08700-f248-11ea-845b-83fcda95a190.png" alt="kafka" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542316-bf57f080-f248-11ea-951f-27f6c8041b6f.png" alt="elastic" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542322-c121b400-f248-11ea-8c57-f8ea1ecba49d.png" alt="prom" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542326-c2eb7780-f248-11ea-9a67-fa6f5913872a.png" alt="kibana" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542329-c3840e00-f248-11ea-9352-e5e1e3cca8bc.png" alt="grafana" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542319-c0891d80-f248-11ea-936b-99fd78e2db16.png" alt="spark" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542321-c121b400-f248-11ea-81a4-522c9bb113cb.png" alt="flink" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542855-3a6dd680-f24a-11ea-8183-31245439728f.png" alt="beam" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542323-c1ba4a80-f248-11ea-9917-0e00a9f6781d.png" alt="hadoop" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542325-c252e100-f248-11ea-843a-caea166ca2a7.png" alt="airflow" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542327-c2eb7780-f248-11ea-8ec7-c65861e6f6c6.png" alt="AWS" width="60" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542666-a8fe6480-f249-11ea-8479-aaeebd3720ee.png" alt="PHP Ewww" width="60" />
+</div></td><td valign="top" width="10%"></td></tr></table>
 
 #### Recent Blog Posts  
 <!-- BLOG-POST-LIST:START -->  
