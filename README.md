@@ -21,7 +21,7 @@
 </div></td><td valign="top" width="10%"></td></tr>
 
 
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg">  Recent Blog Posts<img/>
+<img height="32" width="32" src="https://user-images.githubusercontent.com/16992394/92544219-b0277180-f24d-11ea-95c8-78321e708aeb.png">  <b color="gray">Recent Blog Posts</b><img/>
 
 <!-- BLOG-POST-LIST:START -->
 - [Designing Go Configuration Frameworks for a Cloud Native App](https://medium.com/better-programming/designing-cloud-native-configuration-framework-eefb0b3793cb?source=rss-43e8644100ea------2)
