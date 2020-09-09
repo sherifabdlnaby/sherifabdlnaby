@@ -32,7 +32,7 @@
 ##### Technologies of Interest
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="70" />
+    <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="62" />
     <img src="https://user-images.githubusercontent.com/16992394/92542332-c41ca480-f248-11ea-879d-5418ebe986cf.png" alt="docker" width="50" />
     <img src="https://user-images.githubusercontent.com/16992394/92542317-bf57f080-f248-11ea-9ba0-810c46772644.png" alt="k8s" width="50" />
     <img src="https://user-images.githubusercontent.com/16992394/92542318-bff08700-f248-11ea-845b-83fcda95a190.png" alt="kafka" width="50" />
