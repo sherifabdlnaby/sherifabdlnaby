@@ -20,9 +20,8 @@
     <img src="https://user-images.githubusercontent.com/16992394/92542666-a8fe6480-f249-11ea-8479-aaeebd3720ee.png" alt="PHP Ewww" width="50" />
 </div></td><td valign="top" width="10%"></td></tr>
 
-#### Recent Blog Posts  
 
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" />
+<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg">  Recent Blog Posts<img/>
 
 <!-- BLOG-POST-LIST:START -->
 - [Designing Go Configuration Frameworks for a Cloud Native App](https://medium.com/better-programming/designing-cloud-native-configuration-framework-eefb0b3793cb?source=rss-43e8644100ea------2)
