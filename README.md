@@ -21,8 +21,9 @@
 </div></td><td valign="top" width="10%"></td></tr>
 
 #### Recent Blog Posts  
-<!-- BLOG-POST-LIST:START -->  
-If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. 
+<!-- BLOG-POST-LIST:START -->
+- [Designing Go Configuration Frameworks for a Cloud Native App](https://medium.com/better-programming/designing-cloud-native-configuration-framework-eefb0b3793cb?source=rss-43e8644100ea------2)
+- [Run, Secure, and Deploy Elastic Stack on Docker](https://towardsdatascience.com/running-securing-and-deploying-elastic-stack-on-docker-f1a8ebf1dc5b?source=rss-43e8644100ea------2)
 <!-- BLOG-POST-LIST:END -->  
 
 
