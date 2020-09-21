@@ -1,10 +1,11 @@
 <h5>Recent Medium Articles  <img height="22" width="22" src="https://user-images.githubusercontent.com/16992394/92544219-b0277180-f24d-11ea-95c8-78321e708aeb.png">  <img/> </h5>
+
 <!-- BLOG-POST-LIST:START -->
 - [Designing Go Configuration Frameworks for a Cloud Native App](https://medium.com/better-programming/designing-cloud-native-configuration-framework-eefb0b3793cb?source=rss-43e8644100ea------2)
 - [Run, Secure, and Deploy Elastic Stack on Docker](https://towardsdatascience.com/running-securing-and-deploying-elastic-stack-on-docker-f1a8ebf1dc5b?source=rss-43e8644100ea------2)
 <!-- BLOG-POST-LIST:END -->
+
 <tr><td valign="top" width="10%"></td><td valign="top" width="80%">
- 
 <h6>Technologies of Interest</h6>
 <div align="center">
     <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="52" />
