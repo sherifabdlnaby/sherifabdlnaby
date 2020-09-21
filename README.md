@@ -5,7 +5,7 @@
 - [Run, Secure, and Deploy Elastic Stack on Docker](https://towardsdatascience.com/running-securing-and-deploying-elastic-stack-on-docker-f1a8ebf1dc5b?source=rss-43e8644100ea------2)
 <!-- BLOG-POST-LIST:END -->
 
-<b>Find Me<b>
+<h6>Find Me</h6>
 <div align="center">
 <a href="https://github.com/sherifabdlnaby" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
@@ -26,7 +26,7 @@
 
 <tr><td valign="top" width="10%"></td><td valign="top" width="80%">
  
-<b>Technologies of Interest<b>
+<h6>Technologies of Interest</h6>
 <div align="center">
     <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="52" />
     <img src="https://user-images.githubusercontent.com/16992394/92542332-c41ca480-f248-11ea-879d-5418ebe986cf.png" alt="docker" width="40" />
