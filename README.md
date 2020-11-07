@@ -25,11 +25,10 @@
 
 <tr><td valign="top" width="10%"></td><td valign="top" width="80%">
 <h6>Technologies of Interest</h6>
-<div align="center">
-    <p align="center">
+<p align="center">
 I am  interested in building Scalable Applications, Distributed Systems, and Data Infrastructure. Also I love Golang.
 </p>
-<br/>
+<div align="center">
     <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="52" />
     <img src="https://user-images.githubusercontent.com/16992394/92542332-c41ca480-f248-11ea-879d-5418ebe986cf.png" alt="docker" width="40" />
     <img src="https://user-images.githubusercontent.com/16992394/92542317-bf57f080-f248-11ea-9ba0-810c46772644.png" alt="k8s" width="40" />
