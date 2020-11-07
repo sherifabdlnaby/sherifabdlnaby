@@ -8,26 +8,28 @@
 
 <h6>Find Me</h6>
 <div align="center">
-<a href="https://github.com/sherifabdlnaby" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/sherifabdlnaby" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+<a href="https://sherif.dev" target="_blank">
+<img src=https://img.shields.io/static/v1?&message=Website&color=651e32&label=&style=for-the-badge&logo=iconify&logoColor=white alt=github style="margin-bottom: 5px;" />
+<a href="https://medium.com/sherifabdlnaby" target="_blank">
+<img src=https://img.shields.io/badge/medium-%23292929.svg?&style=for-the-badge&logo=medium&logoColor=white alt=medium style="margin-bottom: 5px;" />
 </a>
 <a href="https://linkedin.com/in/sherifabdlnaby" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>
-<a href="https://medium.com/sherifabdlnaby" target="_blank">
-<img src=https://img.shields.io/badge/medium-%23292929.svg?&style=for-the-badge&logo=medium&logoColor=white alt=medium style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.facebook.com/sherifabdlnaby" target="_blank">
-<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a>  
+<a href="https://twitter.com/sherifabdlnaby" target="_blank">
+<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+</a>
 </div>  
+
 
 <tr><td valign="top" width="10%"></td><td valign="top" width="80%">
 <h6>Technologies of Interest</h6>
+<p align="center">
+I am  interested in building Scalable Applications, Distributed Systems, and Data Infrastructure. Also I love Golang.
+</p>
 <div align="center">
+<br/>
     <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="52" />
     <img src="https://user-images.githubusercontent.com/16992394/92542332-c41ca480-f248-11ea-879d-5418ebe986cf.png" alt="docker" width="40" />
     <img src="https://user-images.githubusercontent.com/16992394/92542317-bf57f080-f248-11ea-9ba0-810c46772644.png" alt="k8s" width="40" />
