@@ -23,7 +23,7 @@
 </div>  
 
 
-<tr><td valign="top" width="10%"></td><td valign="top" width="80%">
+<!-- <tr><td valign="top" width="10%"></td><td valign="top" width="80%">
 <h6>Technologies of Interest</h6>
 <div align="center">
     <img src="https://user-images.githubusercontent.com/16992394/92542314-be26c380-f248-11ea-8e31-857131d4fdfa.png" alt="Go" width="52" />
@@ -38,4 +38,4 @@
     <img src="https://user-images.githubusercontent.com/16992394/92542323-c1ba4a80-f248-11ea-9917-0e00a9f6781d.png" alt="hadoop" width="40" />
     <img src="https://user-images.githubusercontent.com/16992394/92542325-c252e100-f248-11ea-843a-caea166ca2a7.png" alt="airflow" width="40" />
     <img src="https://user-images.githubusercontent.com/16992394/92542666-a8fe6480-f249-11ea-8479-aaeebd3720ee.png" alt="PHP Ewww" width="50" />
-</div></td><td valign="top" width="10%"></td></tr>
+</div></td><td valign="top" width="10%"></td></tr> -->
