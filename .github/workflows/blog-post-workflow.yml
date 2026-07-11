@@ -8,7 +8,7 @@ jobs:
     name: Update README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # v1.9.6
         with:
-          feed_list: "	https://medium.com/feed/@sherifabdlnaby"
+          feed_list: "https://medium.com/feed/@sherifabdlnaby"
