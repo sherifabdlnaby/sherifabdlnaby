@@ -1,0 +1,84 @@
+# Profile README repo — tools for the workflow + hygiene linters only.
+# Minimum `mise` version. If not matched, mise guides the user to update.
+# -> Bump when relying on a newly introduced setting.
+min_version = "2026.6.6"
+
+# ── 🛠️ tools ──────────────────────────────────────────────────────────────────────────────────────────────────────────
+[tools]
+
+# linters & formatters (no app runtime — this repo is README + a workflow)
+actionlint = "1"    # GitHub Actions linter
+shellcheck = "0.11" # actionlint uses it to lint workflow run: blocks — 0.x, pin minor
+zizmor = "1"        # GitHub Actions security
+pinact = "3"        # pin GitHub Actions to SHAs
+yamllint = "1"      # YAML structure (see .yamllint)
+taplo = "0.10"      # TOML lint + format — 0.x, pin minor
+
+# pre-commit
+hk = "1.48.0" # keep in sync with the pin in hk.pkl
+
+# ── 🌳 environment variables ──────────────────────────────────────────────────────────────────────────────────────────
+[env]
+HK_MISE = "1" # default every hk run to mise's env (`--mise`); hooks resolve tools via `mise x`
+
+# ── 📏 vars ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+[vars]
+setup_version = "1" # increment when setup steps change / users must re-run setup
+
+# ── ▶️ tasks ──────────────────────────────────────────────────────────────────────────────────────────────────────────
+[tasks.check]
+description = "Run all linters, formatters & validators as ran by pre-commit and in PR's CI"
+alias = ["lint"]
+usage = '''
+    flag "--fix"              help="apply fixes instead of only reporting"
+    flag "--all"              help="run on all files (default: staged only)"
+    flag "--pr"               help="only files changed vs the default branch (conflicts with --all)"
+    flag "--fail-fast"        help="stop at the first failing step (default: run all, report every failure)"
+    flag "--step <step>"      var=#true help="run only these step(s)"
+    flag "--skip-step <step>" var=#true help="skip these step(s)"
+    complete "step" run="hk check --plan --all --json --no-progress 2>/dev/null | jq -r '.steps[].name'"
+'''
+run = '''
+ff=${usage_fail_fast:+--fail-fast}; ff=${ff:---no-fail-fast}   # default to running every step
+hk check $ff ${usage_fix:+--fix} ${usage_all:+--all} ${usage_pr:+--pr} \
+  ${usage_step:+$(printf -- '--step %s ' $usage_step)} \
+  ${usage_skip_step:+$(printf -- '--skip-step %s ' $usage_skip_step)}
+'''
+
+[tasks.test]
+description = "Run tests (no automated tests — profile README repo)"
+depends = [
+  "lint",
+] # ordering only; depends run in parallel, don't see this task's env
+run = "echo 'no tests'"
+
+[tasks.setup] # one-time, idempotent bootstrap; re-run when `enter` warns it's stale
+description = "One-time, idempotent project bootstrap: install tools"
+depends_post = ["setup:stamp"]                                        # stamp only after a successful setup
+run = "mise install"
+
+[tasks."setup:stamp"] # write the version of the last run setup to .mise/setup
+hide = true
+quiet = true
+run = 'printf %s "{{vars.setup_version}}" > .mise/setup && echo "✅ Setup v{{vars.setup_version}} stamped"'
+
+[tasks."setup:check"] # fast probe (runs on `enter`); warns if setup is stale, never fails
+hide = true
+quiet = true
+run = '[ "$(cat .mise/setup 2>/dev/null)" = "{{vars.setup_version}}" ] || echo "⚠️  Your setup is stale, run: mise run setup" >&2'
+
+# ── 🪝 hooks ──────────────────────────────────────────────────────────────────────────────────────────────────────────
+[hooks]
+enter = "MISE_OFFLINE=1 mise run setup:check" # nudge when setup is stale; MISE_OFFLINE keeps cd offline-safe
+postinstall = "hk install --mise"             # canonical hook install: runs after every `mise install`, idempotent
+
+# ── ⚙️ settings ───────────────────────────────────────────────────────────────────────────────────────────────────────
+[settings]
+experimental = true                 # hooks
+lockfile = true                     # keep mise.lock updated; create with `mise lock`, commit it
+minimum_release_age = "7d"          # ignore releases <7d old (supply-chain cooldown)
+disable_backends = ["asdf", "vfox"] # resolve only via verified backends
+
+# Use `gh` token to overcome github limits, fallback to gcm if gh is not working.
+github.gh_cli_tokens = true
+github.use_git_credentials = true

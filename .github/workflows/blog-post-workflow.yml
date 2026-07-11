@@ -3,12 +3,16 @@ on:
   schedule: # Run workflow automatically
     - cron: '0 * * * *' # Runs every hour, on the hour
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+permissions:
+  contents: write # blog-post-workflow commits README updates
 jobs:
   update-readme-with-blog:
     name: Update README with latest blog posts
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
-      - uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # v1.9.6
+        with:
+          persist-credentials: false
+      - uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # 1.9.6
         with:
           feed_list: "https://medium.com/feed/@sherifabdlnaby"
